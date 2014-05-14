@@ -32,8 +32,7 @@ html5strip is based on lxml and html5lib and hence repairs even broken HTML:
 ### Dependencies
 
 ```
-lxml
-html5lib
+pip install lxml html5lib
 ```
 
 ### Usage

@@ -28,3 +28,11 @@ Or arbitrarily complex empty tag structures:
 html5strip is based on html5lib and hence repairs even broken HTML:
 
 ```<div>Hello, world!<br>``` => ```<div>Hello, world!</div>```
+
+
+### Usage
+
+```
+from html5strip import HTML5Strip
+stripped_html = HTML5Strip.strip("<div><br>Hello, world!<br></div>")
+```

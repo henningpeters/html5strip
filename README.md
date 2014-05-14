@@ -25,7 +25,7 @@ Or arbitrarily complex empty tag structures:
 
 ```<div><div><div><br><p> </p></div></div>Hello, world!</div>``` => ```<div>Hello, world!</div>```
 
-html5strip is based on lxml/html5lib and hence repairs even broken HTML:
+html5strip is based on lxml and html5lib and hence repairs even broken HTML:
 
 ```<div>Hello, world!<br>``` => ```<div>Hello, world!</div>```
 

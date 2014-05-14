@@ -29,6 +29,13 @@ html5strip is based on lxml and html5lib and hence repairs even broken HTML:
 
 ```<div>Hello, world!<br>``` => ```<div>Hello, world!</div>```
 
+### Dependencies
+
+```
+lxml
+html5lib
+```
+
 ### Usage
 
 ```

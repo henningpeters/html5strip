@@ -28,7 +28,3 @@ Or arbitrarily complex empty tag structures:
 html5strip is based on html5lib and hence repairs even broken HTML:
 
 ```<div>Hello, world!<br>``` => ```<div>Hello, world!</div>```
-
-Or just use it to strip whitespace from text:
-
-``` Hello, world! ``` => ```Hello, world!```

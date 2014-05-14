@@ -34,5 +34,5 @@ html5strip is based on lxml and html5lib and hence repairs even broken HTML:
 
 ```
 from html5strip import HTML5Strip
-stripped_html = HTML5Strip.strip("<div><br>Hello, world!<br></div>")  # <div>Hello, world!</div>
+HTML5Strip.strip("<div><br>Hello, world!<br></div>")  # <div>Hello, world!</div>
 ```

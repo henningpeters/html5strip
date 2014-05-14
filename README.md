@@ -44,4 +44,4 @@ HTML5Strip.strip("<div><br>Hello, world!<br></div>")  # <div>Hello, world!</div>
 
 ### Limitations
 
-html5strip is not aware of any tag semantics, it only looks at whether a tag contains text or not. Hence, images, forms, SVGs, scripts and many other elements that might contain some content, but no text, might be stripped.
+html5strip is not aware of any tag semantics, it only looks at whether a tag contains text or not. Hence, images, forms, SVGs, scripts and many other elements that might carry some content, but no text, might be stripped.
